@@ -32,6 +32,7 @@ pipeline {
         stage('Deploy to Production') {
             steps {
                 echo "Deploying application to the production server."
+		echo "New commit."
             }    
         }
     }
